@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:background="@color/appBackgroundColor"
+    tools:context="project.nanodrgree.android.udacity.com.myapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/AppHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_Header"
+        android:textSize="32dp"
+        android:textColor="@color/colorHeader"
+        android:textAlignment="center"
+        android:layout_marginBottom="16dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_1_text"
+        android:id="@+id/SpotifySteamerButton"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/normalButtonTextColor"
+        android:background="@color/buttonBackGroundColor"
+        android:onClick="HandleClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_2_text"
+        android:id="@+id/ScoreAppButton"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/normalButtonTextColor"
+        android:background="@color/buttonBackGroundColor"
+        android:onClick="HandleClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_3_text"
+        android:id="@+id/LibraryAppButton"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/normalButtonTextColor"
+        android:background="@color/buttonBackGroundColor"
+        android:onClick="HandleClick"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_4_text"
+        android:id="@+id/BuildItAppButton"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/normalButtonTextColor"
+        android:background="@color/buttonBackGroundColor"
+        android:onClick="HandleClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_5_text"
+        android:id="@+id/XYZReaderAppButton"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/normalButtonTextColor"
+        android:background="@color/buttonBackGroundColor"
+        android:onClick="HandleClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_6_text"
+        android:id="@+id/CapstoneAppButton"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/projectCapstoneBackColor"
+        android:onClick="HandleClick"/>
+</LinearLayout>

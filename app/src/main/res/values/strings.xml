@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Apps</string>
+    <string name="app_Header">Android App Portfolio</string>
+    <string name="button_1_text">Spotify Streamer</string>
+    <string name="button_2_text">Scores App</string>
+    <string name="button_3_text">Library App</string>
+    <string name="button_4_text">Build It Bigger</string>
+    <string name="button_5_text">XYZ Reader</string>
+    <string name="button_6_text">CapsStone: My Own App</string>
+</resources>
